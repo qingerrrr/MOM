@@ -322,7 +322,7 @@ ax.legend(
 )
 
 plt.tight_layout()
-st.pyplot(fig, use_container_width=False)
+st.pyplot(fig, width='content')
 st.markdown("<div class='caption'>Fig 1. Number of Taxi Rides by Weekday (Stacked by Division)</div>", unsafe_allow_html=True)
 
 #--- Location ---
