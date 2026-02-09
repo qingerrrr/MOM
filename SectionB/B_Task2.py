@@ -210,7 +210,8 @@ cbar = ax.collections[0].colorbar
 cbar.ax.tick_params(labelsize=FIG_FONTSIZE, colors="white")
 cbar.set_label("Number of Rides", fontsize=FIG_FONTSIZE, color="white")
 
-st.pyplot(fig, width='content')
+st.pyplot(fig
+)
 st.markdown("<div class='caption'>Fig X. Number of Taxi Rides by Day and Hour</div>", unsafe_allow_html=True)
 
 #--- Division ---
@@ -270,7 +271,7 @@ ax1.legend(
     fontsize=8
 )
 
-st.pyplot(fig, width='content')
+st.pyplot(fig)
 st.markdown("<div class='caption'>Fig 1. Comparison of Taxi Usage and Cost by Division</div>", unsafe_allow_html=True)
 
 #--- Taxi Usage by weekday across division ---
