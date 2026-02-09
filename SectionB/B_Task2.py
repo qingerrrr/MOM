@@ -5,7 +5,8 @@ import pydeck as pdk
 import streamlit as st
 import seaborn as sns
 
-CSV_PATH = r"D:\Assessment - SPTD Specialist AI_Data\SectionB_taxi trips_201501 to 201509\cleaned_taxi_data.csv"
+# CSV_PATH = r"D:\Assessment - SPTD Specialist AI_Data\SectionB_taxi trips_201501 to 201509\cleaned_taxi_data.csv"
+CSV_PATH = r"C:\Users\Qing\Documents\Me\MOM_Assessment\SectionB\cleaned_taxi_data.csv"
 df = pd.read_csv(CSV_PATH)
 
 st.set_page_config(page_title="Taxi Claims Dashboard", layout="wide")
