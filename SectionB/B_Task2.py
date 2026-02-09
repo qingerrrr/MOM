@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import pydeck as pdk
 import streamlit as st
 import seaborn as sns
+import os
 
 # CSV_PATH = r"D:\Assessment - SPTD Specialist AI_Data\SectionB_taxi trips_201501 to 201509\cleaned_taxi_data.csv"
 current_dir = os.path.dirname(os.path.abspath(__file__))
