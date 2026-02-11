@@ -145,10 +145,10 @@ if weekday_filter:
 # Tabs
 # ----------------------------
 tab1, tab2, tab3, tab4 = st.tabs([
-    "📈 Overview",
-    "⏰ Ride Patterns",
-    "🏢 Division Analysis",
-    "🗺️ Geospatial Analysis"    
+    "Overview",
+    "Ride Patterns",
+    "Division Analysis",
+    "Geospatial Analysis"    
 ])
 
 # ============================
@@ -199,7 +199,7 @@ with tab2:
 
     <br>
 
-    **🔎Possible cost reduction strategy:**  
+    **Possible cost reduction strategy:**  
     Introduce shuttle services during late-night hours to reduce taxi usage.
     <br>
     </div>
@@ -266,8 +266,9 @@ with tab3:
     would be more effective and cost-efficient than broad, organisation-wide measures.
     <br><br>
 
-    **🔎Possible cost reduction strategy:**  
+    **Possible cost reduction strategy:**  
     Shuttle bus services can be prioritised and arranged for high-usage divisions.
+    Provide divisions with monthly taxi usage dashboards to promote internal review and reduce discretionary taxi use through increased visibility.
     <br><br>
     </div>
     """
