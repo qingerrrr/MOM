@@ -268,7 +268,7 @@ with tab3:
 
     **Possible cost reduction strategy:**  
     Shuttle bus services can be prioritised and arranged for high-usage divisions.
-    Provide divisions with monthly taxi usage dashboards to promote internal review and reduce discretionary taxi use through increased visibility.
+    <br>Provide divisions with monthly taxi usage dashboards to promote internal review and reduce discretionary taxi use through increased visibility.
     <br><br>
     </div>
     """
@@ -412,7 +412,7 @@ with tab4:
     A geospatial analysis of taxi pickup and drop-off locations was conducted to identify frequently travelled routes and demand hotspots.
     <br><br>
 
-    **🔎Potential cost reduction strategy:**
+    **Potential cost reduction strategy:**
     <br>Optimise shuttle bus routes and operating schedules based on observed travel patterns.
 
     For instance, during the late-night period (00:00–04:00), taxi pickups are highly concentrated within a specific location. 
